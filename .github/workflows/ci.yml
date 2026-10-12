@@ -26,6 +26,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: repo with spaces
+          persist-credentials: false
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
